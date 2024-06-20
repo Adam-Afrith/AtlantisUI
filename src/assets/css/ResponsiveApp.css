@@ -1,0 +1,759 @@
+/* RESPONSIVE ORIENTATION START *********************************************** */
+@media screen and (orientation: portrait) {
+   
+  
+
+  #EntirePreview-wrapper {
+    height: 100vh;
+    width: 100vw;
+    position: fixed !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .EntirePreview-content {
+    height: 100vw;
+    width: 100vh;
+    transform: rotate(90deg);
+  }
+
+  .EntirePreview .Game-Screen {
+    height: 100vw;
+    width: 100vh !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .EntirePreview .Game-Screen .Images {
+    height: 100vw !important;
+    width: 100vh;
+  }
+
+  .EntirePreview .Game-Screen .Images .Thankyou-section {
+    height: 100vw;
+    width: 100vh;
+  }
+  .EntirePreview .Game-Screen .Images .Thankyou-section .bg-thankyou {    
+    height: 85vw;    
+  }
+  .EntirePreview .Game-Screen .Images .Thankyou-section .thankyou-screen {
+    width: calc(77vw - (-34vw));
+    max-width: 82vh;
+    height: calc(47vh - (11vh));
+    max-height: 47vw;
+  }
+  .EntirePreview .Game-Screen .Images .thankyou-screen .tq-msg {
+    font-size: 4vw;
+  }
+  .EntirePreview .Game-Screen .Images .thankyou-screen .about-experience {
+    font-size: 4.5vw;
+  }
+  .EntirePreview .Game-Screen .Images .thankyou-screen .about-experience img {
+    height: 6vw;
+  }
+  .EntirePreview .Game-Screen .Images .thankyou-screen .collect-learner-feedback .grid .content-box > p {
+    font-size: 4vw;
+  }
+  .EntirePreview .Game-Screen .Images .thankyou-screen .collect-learner-feedback .grid .content-box .content-div div p {
+    font-size: 3.5vw;    
+  }
+  .EntirePreview .Game-Screen .buttonfeel {
+    height: 10vw;
+  }
+  .EntirePreview .Game-Screen .buttonfeel2 {
+    height: 10vw;
+  }
+  .EntirePreview .Game-Screen .Images .thankyou-screen .collect-learner-feedback .grid .last-item p {
+    font-size: 4vw;
+  }
+  .EntirePreview .Game-Screen .Images .Thankyou-section .next-btn {
+    transform: translate(0, 39vw);
+  }
+  .EntirePreview .Game-Screen .Images .Thankyou-section .next-btn img{    
+    height: 10vw;
+  }
+
+
+  /* REFLECTION**************************************** */
+  .EntirePreview .Game-Screen .Images .reflection-screen .bg-img {
+    height: 100vw;
+    width: 100vh;
+  }
+  .EntirePreview .Game-Screen .Images .reflection-screen .title img {
+    height: 14vw;
+  }
+  .EntirePreview .Game-Screen .Images .reflection-screen .title p {
+    font-size: 4.5vw;
+    margin-top: 2.5vw;
+  }
+  .EntirePreview .Game-Screen .Images .reflection-screen .content-ref {
+    height: 100vw;
+    width: 100vh;
+  }
+  .EntirePreview .Game-Screen .Images .reflection-screen .content-ref .grid {
+    width: 70vh;
+  }
+  .EntirePreview .Game-Screen .Images .reflection-screen .content-ref .heading-wrapper img {
+    height: 4vw;
+  }
+  .EntirePreview .Game-Screen .Images .reflection-screen .content-ref .heading-wrapper p {
+    font-size: 5vw;
+  }
+  .EntirePreview .Game-Screen .Images .reflection-screen .content-ref .input-wrapper img {
+    height: 20vw;
+    width: 100vh;
+  }
+  .EntirePreview .Game-Screen .Images .reflection-screen .content-ref .input-wrapper textarea {
+    height: 12vw;
+    font-size: 4.5vw;
+  }
+  .EntirePreview .Game-Screen .Images .reflection-screen .left-right-btn img {
+    height: 10vw;
+  }
+
+
+
+
+
+
+  /* TAKEAWAY**************************************** */
+  .EntirePreview .Game-Screen .Images .takeaway-screen .bg-take {
+    height: 100vw;
+    /* width: 80vh; */
+  }
+  /* .EntirePreview .Game-Screen .Images .takeaway-screen .content-box {
+    height: 40vw;
+
+    max-width: 85vh;
+    transform: translate(0%, 17%);
+  } */
+  .EntirePreview .Game-Screen .Images .takeaway-screen .content-box .content {
+    font-size: 3.5vw !important;
+  }
+  .EntirePreview .Game-Screen .Images .takeaway-screen .content-box .content img {
+    height: 1.5vw;
+  }
+  .EntirePreview .Game-Screen .Images .takeaway-screen .next-btn-box {
+    position: absolute;  
+    transform: translate(0, 42.5vw);
+  }
+  .EntirePreview .Game-Screen .Images .takeaway-screen .next-btn-box img {
+    height: 10vw !important;
+  }
+  .EntirePreview .Game-Screen .Images .takeaway-screen .content-box::-webkit-scrollbar {
+    width: 3vw;    
+  }
+
+
+
+
+  /* LEADERBOARD**************************************** */
+  .EntirePreview .Game-Screen .Images .LearderBoards {
+    height: 100vw;
+    width: 100vh;
+  }
+  .EntirePreview .Game-Screen .Images .Leaderboard-screen {
+    height: 100vw;
+  }
+  .EntirePreview .Game-Screen .Images .Leaderboard-screen .title { 
+    transform: translate(0, -31vw) !important;
+  }
+  /* .EntirePreview .Game-Screen .Images .LearderBoards img {
+    height: 100vw;
+    width: 80vh;
+  } */
+  .EntirePreview .Game-Screen .Images .Leaderboard-screen .leaderboard-img {
+    width: 85vh;
+    height: 80vw;
+  }
+  .EntirePreview .Game-Screen .Images .Leaderboard-screen .content-box {
+    width: 65vh;
+    height: 43vw;
+  }
+  .EntirePreview .Game-Screen .Images .Leaderboard-screen .top-bar {    
+    transform: translateY(-20vw);
+  } 
+  .EntirePreview .Game-Screen .Images .Leaderboard-screen .heading-box .heading-box-img {
+    width: 20vh;
+    height: 9vw;
+  }
+  .EntirePreview .Game-Screen .Images .Leaderboard-screen .heading-box .heading-box-content {
+    width: 20vh;
+    height: 6vw;
+    font-size: 3vw;
+  }
+  .EntirePreview .Game-Screen .Images .Leaderboard-screen .heading-box .dot-img {
+    width: 2vh;
+    height: 4vw 
+  }
+  .EntirePreview .completion_content .inside-img {   
+    transform: translate(3vh, 3vw) !important;
+    height: 10vw !important;
+    width: 6vh !important;   
+  } 
+  .EntirePreview .Game-Screen .Images .Leaderboard-screen img.close-btn {   
+    transform: translate(37vh, -25vw);
+  }
+
+
+  /* WELCOME SCREEN**************************************** */
+  .EntirePreview .Game-Screen .Images .welcome-screen {    
+    height: 100vw;
+    width: 100vh;
+  }
+  .EntirePreview .Game-Screen .Images .welcome-screen .welcome-pad {
+    height: 90vw;    
+  } 
+  .EntirePreview .Game-Screen .Images .welcome-screen .top-title {    
+    top: 21vw;
+  }
+  .EntirePreview .Game-Screen .Images .welcome-screen .top-title .title {
+    font-size: 4vw;  
+    width: 30vw;
+    height: 5vw;
+    margin-top: 6vw;
+  }
+  .EntirePreview .Game-Screen .Images .welcome-screen .top-title .duration {
+    font-size: 4vw;
+  } 
+  .EntirePreview .Game-Screen .Images .welcome-screen .content-box {   
+    height: 35vw !important;
+    width: calc(47vw - (-17vw)) !important;  
+    transform: translateY(18%); 
+  }
+  .EntirePreview .Game-Screen .Images .welcome-screen .content-box .content .text {
+    font-size: 4vw;
+    line-height: 5vw;
+  }
+  .EntirePreview .Game-Screen .Images .welcome-screen .content-box .content .rewards-arrow-img {    
+    height: 5vw;
+  }
+  .EntirePreview .Game-Screen .Images .welcome-screen .content-box .content .rewards-box .box-1 .skill-text { 
+    font-size: 4vw;  
+  }
+  .EntirePreview .Game-Screen .Images .welcome-screen .content-box .content .rewards-box .box-1 .inside-box img { 
+    height: 4vw; 
+  }
+  .EntirePreview .Game-Screen .Images .welcome-screen .content-box .content .rewards-box .box-1 .inside-box p {
+    font-size: 4vw;  
+  }
+  .EntirePreview .Game-Screen .Images .welcome-screen .content-box .content .author{
+    margin: 2vw 0px;    
+  }
+  .EntirePreview .Game-Screen .Images .welcome-screen .content-box .content .author p{
+    font-size: 4vw;      
+  }
+  .EntirePreview .Game-Screen .Images .welcome-screen .content-box .content .renderContent p{
+    font-size: 4vw;  
+  }
+  .EntirePreview .Game-Screen .Images .welcome-screen .next-btn {
+    transform: translate(0, 35vw);   
+  }
+  .EntirePreview .Game-Screen .Images .welcome-screen .next-btn img {    
+    height: 9vw;
+  }
+
+  
+  /* COMPLETION SCREEN**************************************** */
+  .EntirePreview .comple-screen {
+    height: 100vw;
+  }
+  .EntirePreview .comple-screen .bg-img {
+    height: 100vw !important;   
+  }
+  .EntirePreview .comple-screen .title {    
+    transform: translateY(-35vw);
+  }
+  .EntirePreview .comple-screen .title p {
+    font-size: 4vw;
+  }
+  .EntirePreview .comple-screen .content-box {
+    position: absolute;
+    height: 58vw;
+    width: calc(58vw - (-2vw));
+  }
+  .EntirePreview .comple-screen .content-box .congratulations .content{
+    font-size: 3.5vw;
+  }
+   .EntirePreview .comple-screen .content-box .rewards-img-box .rewards-arrow-img {   
+    height: 3.5vw;
+  }
+  .EntirePreview .comple-screen .content-box .points-box .box-1 .box-1_img{    
+    height: 28vw;
+  }
+  .EntirePreview .comple-screen .content-box .points-box .box-2 .box-2_img{    
+    height: 28vw;
+  }
+  .EntirePreview .comple-screen .content-box .points-box .box-1 .points-text {
+    font-size: 2.5vw;    
+    top: 1.8vw;    
+    transform: unset !important;
+  }
+  .EntirePreview .comple-screen .content-box .points-box .box-1 .inside-box-1 .inside-box-1_img {    
+    height: 10.5vw;
+  }
+  .EntirePreview .comple-screen .content-box .points-box .box-1 .inside-box-1 .inside-points-text {    
+    font-size: 3vw;           
+  }
+  .EntirePreview .comple-screen .content-box .points-box .box-2 .points-text {
+    font-size: 2.5vw;    
+    top: 1.8vw;   
+  }
+  .EntirePreview .comple-screen .content-box .points-box .box-2 .inside-img {   
+    height: 14vw;
+    margin-top: 1vw;
+  }    
+  .EntirePreview .comple-screen .next-btn {   
+    transform: translateY(33vw);
+  }
+  .EntirePreview .comple-screen .next-btn img {  
+    height: 9vw;
+  }
+
+  .storyPart {  
+    height: 100vw;
+    width: 100vh;    
+  }
+
+
+  .Entire-Loader-wrapper {
+    height: 100vw;
+    width: 100vh;
+    transform: rotate(90deg);
+    position: absolute;
+  }
+
+  .load {
+    height: 100vw;
+    width: 100vh !important;    
+  }
+  /* .Entire-Loader {
+    height: 100vw;
+    width: 100vh;  
+    transform: rotate(90deg);
+  } 
+  .load {   
+    height: 100vw;
+    width: 100vh;
+  } */
+
+  .dialogue_scroll {
+    width: 77%;
+  }
+
+
+  
+}
+/* RESPONSIVE ORIENTATION END *********************************************** */
+
+
+
+
+
+
+/* RESPONSIVE START ***************************************************************** */
+
+@media (min-width: 250px) and (max-width: 480px) {
+  .EntirePreview .Game-Screen .Images .reflection-screen .title{ 
+    transform: translate(0,0) !important;
+  } 
+  .EntirePreview .Game-Screen .Images .takeaway-screen .content-box .content {
+    font-size: 12px;
+  }
+  .EntirePreview .Game-Screen .Images .takeaway-screen .next-btn-box img {
+    height: 2.5rem;
+    width: 4rem; 
+  }  
+  .EntirePreview .Game-Screen .Images .thankyou-screen .tq-msg {
+    letter-spacing: 0.5px;
+  }
+  .EntirePreview .Game-Screen .Images .thankyou-screen .collect-learner-feedback .grid .content-box .content-div {
+    flex-direction: column;
+  }
+  .EntirePreview .Game-Screen .Images .thankyou-screen .collect-learner-feedback .grid .content-box .content-div div {
+    width: 99%;     
+  }
+  .EntirePreview .Game-Screen .buttonfeel {
+    margin-right: 0;
+  }
+  .EntirePreview .Game-Screen .buttonfeel2 {
+    margin-left: 0;
+    margin-top: 5px 
+  }
+  .EntirePreview .Game-Screen .Images .Leaderboard-screen .title { 
+    font-size: 3.5vw;
+    transform: translate(0, -30.5vh);
+  }
+  .EntirePreview .Game-Screen .Images .Leaderboard-screen .content-box .table-heading {
+    font-size: 16px;
+  }
+  .EntirePreview .Game-Screen .Images .Leaderboard-screen .content-box .table-heading img{
+    height: 40px;    
+    margin: 0 15px;
+  }
+  .EntirePreview .Game-Screen .Images .Leaderboard-screen .content-box .list-pad {
+    height: 30px;
+  }
+  .EntirePreview .Game-Screen .Images .Leaderboard-screen .content-box .list-wrapper div {
+    font-size: 14px;
+  }
+  .EntirePreview .Game-Screen .Images .Leaderboard-screen img.close-btn {   
+    height: 35px;
+    width: 35px;
+  }
+
+
+  .top-menu-home-section .top-menu-img {
+    height: 45px;
+  }
+  .score-box {
+    height: 35px !important;
+  }
+  .top-menu-home-section .overview-img {
+    width: auto;
+    height: 28px;
+    transform: translate(-53px, 7px);
+  }
+  .top-home-menu{
+    width: auto;
+    height: 28px;
+    /* transform: translate(-150%, 3%); */
+  }
+  .top-profile-menu{
+    width: auto;
+    height: 28px;
+  }
+  .top-menu-home-section .setting-img {
+    width: auto;
+    height: 27px;
+    transform: translate(-15px, 7px);
+  }
+
+
+  
+
+  .NDI .block-item-type {
+    box-shadow: 1px 3px 15px #2d2d2d24;
+    margin-bottom: 20px;
+    border-radius: 20px;
+  }
+  /* .NDI .block-item-type .target-block {
+    border: 3px solid #3311db;
+  } */
+  .NDI .sequence-lists .block-compo {
+    flex-direction: column;
+  }
+  .NDI .sequence-lists .block-compo .box-block{
+    flex-direction: column;
+    width: 100%;
+  }
+  .NDI .sequence-lists .block-compo .box-block .block-id{
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .NDI .sequence-lists .block-compo .box-block .block-character-name{
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .NDI .sequence-lists .block-compo .box-block .block-character-name button{
+    width: 100% !important;
+  }
+  .NDI .sequence-lists .block-compo .box-block .block-input-text{
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .NDI .sequence-lists .block-compo .box-block .react-select{
+    width: 100% !important;
+  }
+}
+@media (min-width: 480px) and (max-width: 768px) {
+  .EntirePreview .Game-Screen .Images .reflection-screen .title p {
+    /* font-size: 1.5rem; */
+    margin-top: 10px;
+  }
+  .EntirePreview .Game-Screen .Images .reflection-screen .title{ 
+    transform: translate(0,0) !important;
+  }
+  .EntirePreview .Game-Screen .Images .takeaway-screen .content-box .content {
+    font-size: 14px;
+  }
+  .EntirePreview .Game-Screen .Images .takeaway-screen .next-btn-box img {
+    height: 2.5rem;
+    width: 5rem; 
+  }  
+  .EntirePreview .Game-Screen .Images .thankyou-screen .tq-msg {
+    letter-spacing: 0.5px;
+  }
+  .EntirePreview .Game-Screen .Images .thankyou-screen .collect-learner-feedback .grid .content-box .content-div {
+    flex-direction: column;
+  }
+  .EntirePreview .Game-Screen .Images .thankyou-screen .collect-learner-feedback .grid .content-box .content-div div {
+    width: 99%;     
+  }
+  .EntirePreview .Game-Screen .buttonfeel {
+    margin-right: 0;   
+  }
+  .EntirePreview .Game-Screen .buttonfeel2 {
+    margin-left: 0;
+    margin-top: 5px;    
+  } 
+  .EntirePreview .Game-Screen .Images .Leaderboard-screen .title { 
+    font-size: 3vh;
+  }
+  .EntirePreview .Game-Screen .Images .Leaderboard-screen img.close-btn {   
+    height: 40px;
+    width: 40px;
+  }
+
+  .top-menu-home-section .top-menu-img {
+    height: 50px;
+  }
+  .score-box {
+    height: 42px !important;
+  }
+  .top-menu-home-section .setting-img {
+    width: auto;
+    height: 30px;
+    transform: translate(-10px, 5px)
+  }
+  .top-home-menu{
+    width: auto;
+    height: 30px;
+    /* transform: translate(-150%, 3%); */
+  }
+  .top-profile-menu{
+    width: auto;
+    height: 30px;
+  }
+  .top-menu-home-section .overview-img {
+    width: auto;
+    height: 30px;
+    transform: translate(-51px, 5px)
+  }
+
+  
+
+  .NDI .block-item-type {
+    box-shadow: 1px 3px 15px #2d2d2d24;
+    margin-bottom: 20px;
+    border-radius: 20px;
+  }
+  .NDI .sequence-lists .block-compo {
+    flex-direction: column;
+  }
+  .NDI .sequence-lists .block-compo .box-block{
+    flex-direction: column;
+    width: 100%;
+  }
+  .NDI .sequence-lists .block-compo .box-block .block-id{
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .NDI .sequence-lists .block-compo .box-block .block-character-name{
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .NDI .sequence-lists .block-compo .box-block .block-character-name button{
+    width: 100% !important;
+  }
+  .NDI .sequence-lists .block-compo .box-block .block-input-text{
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .NDI .sequence-lists .block-compo .box-block .react-select{
+    width: 100% !important;
+  }
+}
+@media (min-width: 768px) and (max-width: 990px) {
+  .EntirePreview .Game-Screen .Images .takeaway-screen .content-box .content {
+    font-size: 16px;
+  }
+  .EntirePreview .Game-Screen .Images .takeaway-screen .next-btn-box img {
+    height: 3rem;
+    width: 5rem; 
+  }  
+  .EntirePreview .Game-Screen .Images .thankyou-screen .tq-msg {
+    letter-spacing: 0.8px;
+  }
+  .EntirePreview .Game-Screen .Images .thankyou-screen .collect-learner-feedback .grid .content-box .content-div {
+    flex-direction: column;
+  }
+  .EntirePreview .Game-Screen .Images .thankyou-screen .collect-learner-feedback .grid .content-box .content-div div {
+    width: 99%;     
+  }
+  .EntirePreview .Game-Screen .buttonfeel {
+    margin-right: 0;
+  }
+  .EntirePreview .Game-Screen .buttonfeel2 {
+    margin-left: 0;
+    margin-top: 5px;
+  }
+
+
+  .top-menu-home-section .top-menu-img {
+    height: 60px;
+  }
+  .score-box {
+    height: 50px !important;
+  }
+  .top-menu-home-section .setting-img {
+    width: auto;
+    height: 45px;
+    transform: translate(-5px, 3px);
+  }
+  .top-home-menu{
+    width: auto;
+    height: 45px;
+    /* transform: translate(44%, 3%); */
+  }
+  .top-profile-menu{
+    width: auto;
+    height: 45px;
+  }
+  .top-menu-home-section .overview-img {
+    width: auto;
+    height: 45px;
+    transform: translate(-53px, 3px)
+  }
+
+
+  .NDI .block-item-type {
+    box-shadow: 1px 3px 15px #2d2d2d24;
+    margin-bottom: 20px;
+    border-radius: 20px;
+  }
+  .NDI .sequence-lists .block-compo {
+    flex-direction: column;
+  }
+  .NDI .sequence-lists .block-compo .box-block{
+    flex-direction: column;
+    width: 100%;
+  }
+  .NDI .sequence-lists .block-compo .box-block .block-id{
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .NDI .sequence-lists .block-compo .box-block .block-character-name{
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .NDI .sequence-lists .block-compo .box-block .block-character-name button{
+    width: 100% !important;
+  }
+  .NDI .sequence-lists .block-compo .box-block .block-input-text{
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .NDI .sequence-lists .block-compo .box-block .react-select{
+    width: 100% !important;
+  }
+}
+/* RESPONSIVE END ***************************************************************** */
+
+
+/* TOP Menu Secion */
+@media (min-width: 1300px) and (max-width: 1500px) {
+  .top-home-menu{
+    width: auto;
+    height: 60px;
+    /* transform: translate(44%, 3%); */
+  }
+  .top-profile-menu{
+    width: auto;
+    height: 60px;
+  }
+  .top-menu-home-section .overview-img {
+    width: auto;
+    height: 60px;
+    transform: translate(-83px, 3px);
+  }
+  .top-menu-home-section .setting-img {
+    width: auto;
+    height: 60px;
+    transform: translate(-4px, 3px);
+  }
+}
+@media (min-width: 1100px) and (max-width: 1300px) {
+  .top-home-menu{
+    width: auto;
+    height: 54px;
+    /* transform: translate(-150%, 3%); */
+  }
+  .top-profile-menu{
+    width: auto;
+    height: 54px;
+  }
+  .top-menu-home-section .overview-img {
+    width: auto;
+    height: 54px;
+    transform: translate(-78px, 10px);
+  }
+  .top-menu-home-section .setting-img {
+    width: auto;
+    height: 54px;
+    transform: translate(-12px, 10px);
+  }
+}
+@media (min-width: 990px) and (max-width: 1100px) {
+  .top-home-menu{
+    width: auto;
+    height: 50px;
+    /* transform: translate(-150%, 3%); */
+  }
+  .top-profile-menu{
+    width: auto;
+    height: 50px;
+  }
+  .top-menu-home-section .overview-img {
+    width: auto;
+    height: 50px;
+    transform: translate(-65px, 11px);
+  }
+  .top-menu-home-section .setting-img {
+    width: auto;
+    height: 50px;
+    transform: translate(-8px, 11px);
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+/* RESPONSIVE MOB LANDSCAPE ***************************************************************** */
+@media (min-width: 620px) and (max-width: 990px) and (max-height: 480px) {
+  .EntirePreview .Game-Screen .Images .reflection-screen .content-ref .heading-wrapper p {
+    font-size: 5vh;
+  }
+  .EntirePreview .Game-Screen .Images .takeaway-screen .next-btn-box img {
+    height: 2.8rem;
+    width: 4.8rem; 
+  }  
+  .EntirePreview .Game-Screen .Images .Leaderboard-screen .content-box .table-heading {
+    font-size: 16px;
+  }
+  .EntirePreview .Game-Screen .Images .Leaderboard-screen .content-box .table-heading img{
+    height: 40px; 
+    margin: 0 15px;   
+  }
+  .EntirePreview .Game-Screen .Images .Leaderboard-screen .content-box .list-pad {
+    height: 30px;
+  }
+  .EntirePreview .Game-Screen .Images .Leaderboard-screen .content-box .list-wrapper div {
+    font-size: 14px;
+  }  
+}
+
+@media (min-width: 480px) and (max-width: 768px) and (max-height: 480px) {
+  .EntirePreview .Game-Screen .Images .reflection-screen .content-ref .heading-wrapper p {
+    font-size: 5vh;
+  }
+}

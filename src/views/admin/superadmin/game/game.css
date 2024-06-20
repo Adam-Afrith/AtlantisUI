@@ -1,0 +1,79 @@
+/* theme.css */
+:root {
+    --body-background-color: #e5f4ff;
+    --v-progress-left: 50px;
+    --v-progress-item-height-width: 12px;
+    --v-progress-line-height: 35px;
+    --v-progress-line-width: 3px;
+    --v-progress-gap: 13px;
+    --blue: #0081c9;
+    --green: #159895;
+    --light-blue: #5bc0f8;
+  }
+  
+  /* Vertical Progress Styles */
+  .v-progress {
+    padding: 20px 10px 10px 0;
+  }
+  
+  .v-progress-item {
+    position: relative;
+    margin-left: var(--v-progress-left);
+    height: var(--v-progress-item-height-width);
+    line-height: var(--v-progress-item-height-width);
+    margin-bottom: var(--v-progress-line-height);
+    --v-progress-border: 8px;
+  }
+  
+  .v-progress-item:last-child {
+    margin-bottom: 0px;
+  }
+  
+  .v-progress-item:last-child:after {
+    border-left: 0px;
+  }
+  
+  .v-progress-item:before {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    width: var(--v-progress-item-height-width);
+    height: var(--v-progress-item-height-width);
+    left: calc(0px - var(--v-progress-left));
+    border-radius: 50%;
+    background-color: #ccc;
+  }
+  
+  .v-progress-item:after {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    height: calc(var(--v-progress-line-height) - var(--v-progress-gap));
+    top: calc(var(--v-progress-item-height-width) + var(--v-progress-gap) / 2);
+    left: calc(0px - var(--v-progress-left) + var(--v-progress-item-height-width) / 2 - var(--v-progress-line-width) / 2);
+    border-left: var(--v-progress-line-width) solid #ccc;
+  }
+  
+  .v-progress-item.completed:after {
+    border-color: var(--light-blue);
+  }
+  
+  .v-progress-item.completed:before {
+    content: "✔";
+    font-size: 11px;
+    text-align: center;
+    color: white;
+    background: var(--light-blue);
+    height: calc(var(--v-progress-border) + var(--v-progress-item-height-width));
+    width: calc(var(--v-progress-border) + var(--v-progress-item-height-width));
+    line-height: calc(var(--v-progress-border) + var(--v-progress-item-height-width));
+    left: calc(0px - var(--v-progress-left) - var(--v-progress-border) / 2);
+    top: calc(0px - var(--v-progress-border) + var(--v-progress-border) / 2);
+  }
+  
+  .v-progress-item.inprogress:before {
+    background-color: white;
+    outline: calc(var(--v-progress-border) / 2) solid var(--blue);
+    top: calc(0px - var(--v-progress-border) + var(--v-progress-border));
+  }
+  
